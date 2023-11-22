@@ -1,60 +1,62 @@
 
  
 .header_loc1 {
-    text-align: center;
-    padding: 20px;
-    /* Cambiar el fondo a una imagen */
-    background-image: url('../img/frida-kahlofondo.jpg');
-    background-size: cover; /* Ajustar la imagen para cubrir todo el elemento */
-    background-position: center; /* Centrar la imagen */
-    color: #fff;
-  }
-  
-  .donde{
-    mix-blend-mode: darken;
-    text-align: left;
-   
-  }
+  text-align: center;
+  padding: 20px;
+  background-image: url('../img/frida-kahlofondo.jpg');
+  background-size: cover; 
+  background-position: center; 
+  color: #fff;
+}
 
-  .header_loc2{
-    text-align: center;
-    padding: 20px;
-    background-color:  rgb(10, 134, 62);
-    background-size: cover; 
-    background-position: center; 
-    color: #fff;
-  }
-  
+.donde{
+mix-blend-mode: darken;
+text-align: left;
+
+}
+
+.header_loc2{
+text-align: center;
+padding: 20px;
+background-color:  rgb(10, 134, 62);
+background-size: cover; 
+background-position: center; 
+color: #fff;
+}
 
 
-   .grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    grid-template-rows: auto;
-    gap: 20px;
-    padding: 20px;
-    
-  }
-  
-    
-  
-  .section {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    gap: 20px;
-    margin-bottom: 20px;
-    width: fit-content;
-    justify-content: space-evenly;
 
-  }
+.grid-container {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: auto;
+gap: 20px;
+padding: 20px;
+width: 80%;
+margin: 0 auto;
+}
 
-  .section:hover{
-    box-shadow: 2px 1px 5px rgb(21, 84, 14);
-  }
 
-   .section img {
-    max-width: 100%;
-    height: auto;
-  }
 
-  
+.section {
+/* display: grid; */
+grid-template-columns: repeat(2, 1fr);
+gap: 20px;
+margin-bottom: 20px;
+width: fit-content;
+justify-content: space-evenly;
+box-shadow: 0 0 28px 0px #00000021;
+padding: 20px;
+/* margin: 0 auto; */
+}
+
+.section:hover{
+box-shadow: 2px 1px 5px rgb(21, 84, 14);
+box-shadow: 0 0 10px 5px #0000003d;
+}
+
+.section img {
+max-width: 100%;
+height: auto;
+}
+
